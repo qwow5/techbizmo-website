@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TechBizmo - Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+@font-face {
+    font-family: ubuntu;
+    src: url(Ubuntu-R.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: ubuntu-l;
+    src: url(Ubuntu-L.ttf);
+    font-weight: normal;
+}
+p {
+	font-family: ubuntu;
+	color: black;
+	font-size: 18px;
+}
+h1 {
+	font-family: ubuntu-l;
+	color: black;
+	font-weight: 300;
+}
+h2 {
+	font-family: ubuntu-l;
+	color: black;
+	font-weight: 300;
+}
+.footer {
+    background-color: #f1f1f1;
+    width: 100%;
+	position: fixed;
+	bottom: 0;
+    font-family: ubuntu;
+    font-weight: 100;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.heading {
+	font-family: ubuntu-l;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+.subheading {
+	font-family: ubuntu;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+.jumbotron {
+	background-color: black;
+}
+
+/* Contact form | Added by Quint Burkley <https://quint5.tech> */
+input[type=text], input[type=email] {
+  width: 70%;
+  padding: 12px 10px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #f1f1f1;
+  color: #f1f1f1;
+  font-size: 16px;
+}
+textarea {
+  font-family: ubuntu;
+  width: 70%;
+  height: 150px;
+  padding: 12px 10px;
+  margin-top: 1em;
+  border: 2px solid #f1f1f1;
+  color: #f1f1f1;
+  font-size: 16px;
+  outline: none;
+  resize: none;
+}
+input[type=submit] {
+  background-color: #f1f1f1;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline: none;
+}
+</style>
+<body>
+
+<!-- Page content -->
+<div class="main">
+<div class="jumbotron jumbotron-fluid">
+<div class="container">
+<div class="heading">TechBizmo</div>
+<div class="subheading">Everyday computer enthusiast & Linux user.</div>
+</div>
+</div>
+<div class="container">
+<h2>About TechBizmo</h2>
+<p>For those who are not familliar with my YouTube Channel or me in general, I Love technology,
+mainly computers. I am an everyday computer enthusiast, I mainly have interest in computer hardware, however I do know some software. That isn't coding however, its mainly software
+like GIMP, Vegas Pro, and some other Photo/Video editing programs. I do know some HTML as you can tell. :)</p>
+<br>
+<h2>What OS?</h2>
+<p>Linux is my daily driver operating system,
+however I am not pleased to say that I use Windows 10
+on a variety of computers like my editing workstation. On my editing workstation (which in fact isn't
+<i>just</i> for editing) I edit all of my videos with a software known as Sony Vegas Pro. Originally,
+I was planning to slowly move my boat into Final Cut or Adobe Premiere, but I am settled into Vegas,
+and I doubt I am switching anytime soon.</p>
+<br>
+
+<!-- Contact form | Added by Quint Burkley <https://quint5.tech> -->
+<h2>Contact Me</h2>
+<p>I prefer contact through a contact form. Please fill out the form below and I will respond as soon as I can.</p>
+<br>
+<form action="https://formspree.io/contact@quint5.tech" method="POST">
+<div>
+<input type="text" name="Name" placeholder="Name" required>
+</div>
+<br>
+<div>
+<input type="email" name="_replyto" placeholder="Email" required>
+</div>
+<br>
+<div>
+<input type="text" name="_subject" placeholder="Subject" required>
+</div>
+<br>
+<div>
+<textarea name="Message" placeholder="Message" required></textarea>
+</div>
+<br>
+<div class="button">
+<input type="submit" value="Submit">
+</div>
+<br>
+</form>
+</div>
+
+
+<br>
+<br>
+<br>
+
+<div class="footer">
+<center>Copyright &copy TechBizmo 2019</center>
+</div>
+
+</body>
+</html>
